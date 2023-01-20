@@ -60,3 +60,7 @@ export const Fetch_line = styled.div`
   border-top: 3px solid white;
   width: 1000px;
 `;
+
+export const RecoilDiv = styled.div`
+height: 100%;
+`

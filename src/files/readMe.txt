@@ -1,12 +1,13 @@
 BIBLIOTECAS UTILIZADAS NA POC:
 - VITE (✓)
 - GENERATE-REACT-CLI (✓)
-- STYLED-COMPONENTS (✓)
-- ROUTER5 (✓)
+- STYLED-COMPONENTS (✓) - Alternativa ao Tailwind
+- ROUTER5 (✓) - Alternativa ao React Router
 - JEST (✓)
 - JASMINE (✓)
-- REACT-HOOK-FORM ()
-- RECOIL ()
+- REACT-HOOK-FORM (✓)
+- Fetch Node API (✓) - Alternativa ao Axios
+- RECOIL (✓) - Alternativa ao Redux
 - STORYBOOK (?)
 
 
@@ -49,4 +50,11 @@ npm test
 ---------/-----------
 RECOIL
 npm install recoil
+RecoilEnv.RECOIL_DUPLICATE_ATOM_KEY_CHECKING_ENABLED = false; * (https://github.com/facebookexperimental/Recoil/releases/tag/0.7.6)
 
+* configuração de arquivo
+---------/-----------
+REACT-HOOK-FORM
+npm install react-hook-form
+---------/-----------
+STORYBOOK

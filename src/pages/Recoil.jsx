@@ -1,5 +1,6 @@
 import React from 'react'
 import { atom, selector, useRecoilState, useRecoilValue } from 'recoil';
+import { RecoilDiv } from '../styles/styles';
 
 function Recoil() {
   const estadoTexto = atom({
@@ -25,16 +26,17 @@ const estadoContagemChar = selector({
   function TextInput() {
     const [text, setText] = useRecoilState(estadoTexto);
   
-    const onChange = (event: { target: { value: string | ((varloAtual: string) => string); }; }) => {
+    var onChange = function (event) {
       setText(event.target.value);
-    };
+  };
+  
   
     return (
-      <div>
+      <RecoilDiv>
         <input type="text" value={text} onChange={onChange} className= "bg-gray-700"/>
         <br />
         String: {text}
-      </div>
+      </RecoilDiv>
     );
   }
 

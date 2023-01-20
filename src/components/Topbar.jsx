@@ -17,6 +17,9 @@ function Topbar() {
         <li>
         <Link routeName="recoil">RECOIL</Link>
         </li>
+        <li>
+        <Link routeName="novopost">POST</Link>
+        </li>
       </ul>
       </div>
     </Topbar_nav>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRouteNode } from 'react-router5'
 import Home from '../pages/Home';
+import NovoPost from '../pages/NovoPost';
 import Recoil from '../pages/Recoil';
 
 function Paginas() {
@@ -14,6 +15,10 @@ function Paginas() {
 
     if(topRouteName === 'recoil'){
         return <Recoil/>
+    }
+
+    if(topRouteName === 'novopost'){
+      return <NovoPost/>
     }
 
   return (
