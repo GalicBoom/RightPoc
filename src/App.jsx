@@ -1,15 +1,18 @@
 import './App.css'
-import { TopBar } from './styles/styles';
 import Paginas from './routes/Paginas';
+import Topbar from './components/Topbar';
+import { Container } from './styles/styles';
 
 
 function App() {
 
   return (
     <div className="App">
-        <TopBar/>
-        <Paginas/>
-      </div>
+        <Topbar/>
+        <Container className='container'>
+            <Paginas/>
+        </Container>
+    </div>
   )
 }
 

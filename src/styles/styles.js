@@ -1,25 +1,62 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-color:red;
+color:white;
 font-size: 3.2em;
 line-height: 1.1;
+margin-bottom: 40px;
 `;
 
-export const TopBar = styled.nav`
+export const Topbar_nav = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: darkcyan;
-    color:red;
-
-    h2 {
+    background-color: darkslategrey;
+    color:black;
+    height: 80px;
+    
+    a {
         opacity: 1;
+        text-decoration: none;
+
     }
 
-    ul {
-    display: flex;
-    gap: 1rem;
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        size: 1em;
+        color: white;
     }
+
+    h2{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        size: 1em;
+    }
+
+    li{
+        list-style: none;
+        float: right;
+        padding: 1rem;
+        color: white;
+    }
+
+    
+    ul{
+    gap: 1rem;
+    color: whites;
+    }
+
+`;
+
+export const Container = styled.div`
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+`;
+
+export const Fetch_line = styled.div`
+  display: inline-block;
+  border-top: 3px solid white;
+  width: 1000px;
 `;

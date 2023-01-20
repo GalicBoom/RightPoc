@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouteNode } from 'react-router5'
-import Home from './Home';
-import Teste from './Teste';
+import Home from '../Pages/Home';
+import Teste from '../Pages/Teste';
 
 function Paginas() {
 

@@ -1,3 +1,18 @@
+BIBLIOTECAS UTILIZADAS NA POC:
+- VITE (✓)
+- GENERATE-REACT-CLI (✓)
+- STYLED-COMPONENTS (✓)
+- ROUTER5 (✓)
+- JEST ()
+- JASMINE ()
+- RECOIL ()
+- REACT-HOOK-FORM ()
+- STORYBOOK (?)
+
+
+
+LISTA DE COMANDOS EXECUTADOS:
+
 VITE:
 npm init vite
 npm install
@@ -14,3 +29,4 @@ ROUTER5:
 npm install --save react-router5
 npm i router5-plugin-logger
 npm i router5-plugin-browser
+---------/-----------

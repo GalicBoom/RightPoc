@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import { Title } from '../styles/styles';
+import { Fetch_line } from '../styles/styles';
 
 export default function Fetch() {
     
@@ -29,6 +30,7 @@ export default function Fetch() {
               <div className='post' key={post.id}>
               <h1>{post.title}</h1>
               <h2>{post.body}</h2>
+              <Fetch_line/>
              </div>
              ))
              )}
