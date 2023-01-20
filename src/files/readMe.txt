@@ -4,7 +4,7 @@ BIBLIOTECAS UTILIZADAS NA POC:
 - STYLED-COMPONENTS (✓)
 - ROUTER5 (✓)
 - JEST (✓)
-- JASMINE ()
+- JASMINE (✓)
 - RECOIL ()
 - REACT-HOOK-FORM ()
 - STORYBOOK (?)
@@ -33,6 +33,16 @@ npm i router5-plugin-browser
 JEST
 npm install --save-dev jest
 package.json -> Scripts ->  "test": "jest" *
+npm test
+
+* configuração de arquivo
+---------/-----------
+JASMINE
+npm install --save-dev jasmine
+npx jasmine init (criando diretorio spec e arquivo de configuração do jasmine)
+package.json -> Scripts ->  "test": "jasmine" *
+spec\support\jasmine.json -> spec_files -> "**/*[sS]pec.?(m)jsx" *
+spec\support\jasmine.json -> spec_dir -> "src/tests" *
 npm test
 
 * configuração de arquivo
