@@ -5,8 +5,8 @@ BIBLIOTECAS UTILIZADAS NA POC:
 - ROUTER5 (✓)
 - JEST (✓)
 - JASMINE (✓)
-- RECOIL ()
 - REACT-HOOK-FORM ()
+- RECOIL ()
 - STORYBOOK (?)
 
 
@@ -47,3 +47,6 @@ npm test
 
 * configuração de arquivo
 ---------/-----------
+RECOIL
+npm install recoil
+

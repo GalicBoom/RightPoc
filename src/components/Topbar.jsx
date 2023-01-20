@@ -15,7 +15,7 @@ function Topbar() {
         <BaseLink router={router} routeName="home" >HOME</BaseLink>
         </li>
         <li>
-        <Link routeName="teste">TESTE</Link>
+        <Link routeName="recoil">RECOIL</Link>
         </li>
       </ul>
       </div>
