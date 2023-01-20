@@ -3,7 +3,7 @@ BIBLIOTECAS UTILIZADAS NA POC:
 - GENERATE-REACT-CLI (✓)
 - STYLED-COMPONENTS (✓)
 - ROUTER5 (✓)
-- JEST ()
+- JEST (✓)
 - JASMINE ()
 - RECOIL ()
 - REACT-HOOK-FORM ()
@@ -29,4 +29,11 @@ ROUTER5:
 npm install --save react-router5
 npm i router5-plugin-logger
 npm i router5-plugin-browser
+---------/-----------
+JEST
+npm install --save-dev jest
+package.json -> Scripts ->  "test": "jest" *
+npm test
+
+* configuração de arquivo
 ---------/-----------
