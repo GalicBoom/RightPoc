@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #011827;
+
   color: #fff;
   height: 100%;
 }
@@ -27,5 +27,3 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
-

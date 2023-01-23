@@ -2,6 +2,7 @@ import React, { SetStateAction, useEffect } from 'react'
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useRoute } from 'react-router5';
+import { NovoPostInput, NovoPostTextField } from '../styles/styles';
 
 
 
@@ -12,8 +13,8 @@ const NovoPost = () => {
   const { router } = useRoute();
 
 
-const [title,setTitle] = useState();
-const [body,setBody] = useState();
+//const [title,setTitle] = useState();
+//const [body,setBody] = useState();
 const  {register, handleSubmit, formState: {erros}} = useForm();
 
 const onError = () => {console.log("falha")};
@@ -73,9 +74,9 @@ const creatingPost = (data,event) => {
         </div>
         <div className="form-control">
           <label htmlFor='body'>Conteúdo</label>
-          <textarea name= "body" placeholder='Digite o conteúdo' id="body" {...register("body")}/>
+          <NovoPostTextField name= "body" placeholder='Digite o conteúdo' id="body" {...register("body")}/>
         </div>
-        <input name= "nomeDoInput" type="submit" value="Criar post" className="pr-1 rounded-full bg-gray-800 p-1 text-white-400 hover:text-gray focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 w-20"/>
+        <NovoPostInput name= "nomeDoInput" type="submit" value="Criar post"/>
       </form>
     </div>
   )

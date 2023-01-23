@@ -5,6 +5,7 @@ color:white;
 font-size: 3.2em;
 line-height: 1.1;
 margin-bottom: 40px;
+text-align: center;
 `;
 
 export const Topbar_nav = styled.nav`
@@ -12,7 +13,7 @@ export const Topbar_nav = styled.nav`
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: darkslategrey;
+    background-color: #0A628E;
     color:black;
     height: 80px;
     
@@ -53,6 +54,7 @@ export const Container = styled.div`
     max-width: 1000px;
     margin: 2rem auto;
     padding: 0 2rem;
+
 `;
 
 export const Fetch_line = styled.div`
@@ -63,4 +65,14 @@ export const Fetch_line = styled.div`
 
 export const RecoilDiv = styled.div`
 height: 100%;
+`;
+
+export const NovoPostInput = styled.input`
+`;
+
+export const NovoPostTextField = styled.textarea`
+border: 0;
+border-bottom: 2px solid black;
+background-color: transparent;
+resize: none;
 `
