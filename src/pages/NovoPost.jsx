@@ -1,5 +1,4 @@
 import React, { SetStateAction, useEffect } from 'react'
-import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useRoute } from 'react-router5';
 import { NovoPostInput, NovoPostTextField } from '../styles/styles';
@@ -13,8 +12,7 @@ const NovoPost = () => {
   const { router } = useRoute();
 
 
-//const [title,setTitle] = useState();
-//const [body,setBody] = useState();
+
 const  {register, handleSubmit, formState: {erros}} = useForm();
 
 const onError = () => {console.log("falha")};
